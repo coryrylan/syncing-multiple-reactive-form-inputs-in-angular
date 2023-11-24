@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { FormControl, ReactiveFormsModule } from '@angular/forms';
+import { HelloComponent } from './hello.component';
 
 @Component({
-  selector: 'my-app',
+  standalone: true,
+  imports: [ReactiveFormsModule, HelloComponent],
+  selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: [ './app.component.css' ]
 })
