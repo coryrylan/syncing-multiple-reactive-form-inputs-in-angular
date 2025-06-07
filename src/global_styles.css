@@ -1,1 +1,9 @@
 /* Add application styles & imports to this file! */
+p {
+  font-family: Lato;
+}
+
+input {
+  display: block;
+  margin-bottom: 12px;
+}
